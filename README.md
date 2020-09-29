@@ -3,6 +3,7 @@ Solution on how to randomly copy nameske imgs and labels  using parts of COCO da
 
 In my process of learing YOLOv5, I find it difficult to use the whole COCO dataset because of its large size, So I try to use parts of COCO. Here is how I plan to randomly copy namesake labels and imgs from COCO. One can readily customize his/her own 'small COCO' by change the path and the rate you want to get.
 
+```
 import os
 import random
 import shutil
@@ -23,3 +24,4 @@ for name in sample:
     print(name)
     shutil.copy(picture_fileDir + name, picture_tarDir + name)
     shutil.copy(label_fileDir + os.path.splitext(name)[0] + '.txt', label_tarDir + os.path.splitext(name)[0] + '.txt')
+```
