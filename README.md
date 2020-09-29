@@ -1,7 +1,7 @@
 # randomly-copy-namesake-labels-and-imgs
 Solution on how to randomly copy nameske imgs and labels  using parts of COCO dataset 
 
-In my process of learing YOLOv5, I find it difficult to use the whole COCO dataset because of its large size, So I try to use parts of COCO. Here is how I plan to randomly copy namesake labels and imgs from COCO. One can readily customize his/her own 'small COCO' by change the path and the rate you want to get.
+In my process of learing YOLOv5, I find it difficult to use the whole COCO dataset because of its large size, so I try to use parts of COCO. Here is how I plan to randomly copy namesake labels and imgs from COCO. One can readily customize his/her own 'small COCO' by change the path and the rate you want to get.
 
 ```
 import os
